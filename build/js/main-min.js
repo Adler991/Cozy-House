@@ -1,0 +1,2 @@
+console.log("1"),$(document).on("click",'a[href^="#"]',function(o){o.preventDefault(),$("html, body").animate({scrollTop:$($.attr(this,"href")).offset().top},500)}),$(".slider").slick({arrows:!0,prevArrow:".arrowLeft",nextArrow:".arrowRight",slidesToShow:3,slidesToScroll:1,infinite:!0,responsive:[{breakpoint:1130,settings:{slidesToShow:2}},{breakpoint:800,settings:{slidesToShow:1}}]});
+//# sourceMappingURL=../maps/main-min.js.map

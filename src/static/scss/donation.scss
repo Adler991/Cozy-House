@@ -1,0 +1,55 @@
+@import "./commonCss/variables.scss";
+
+.donation {
+  background-color: $petsBg;
+
+  &__content {
+    padding: 62px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__img {
+    margin: 24px 67px 20px 20px;
+  }
+
+  &__header {
+    max-width: 365px;
+    margin-bottom: 24px;
+  }
+
+  span {
+    display: block;
+  }
+
+  &__requisites {
+    margin-bottom: 14px;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    color: $headerColor;
+  }
+
+  &__row {
+    margin-bottom: 30px;
+    max-width: 320px;
+    padding: 11px 14px 12px 57px;
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+    color: $buttonColor;
+    border-radius: 9px;
+    background: url("../img/credit-card.png") $logoColor 14px center no-repeat;
+  }
+
+  &__desc {
+    max-width: 351px;
+    font-family: $arial;
+    font-size: 12px;
+    line-height: 1.5;
+    font-style: italic;
+    color: #b2b2b2;
+  }
+}

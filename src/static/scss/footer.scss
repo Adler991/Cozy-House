@@ -1,0 +1,65 @@
+@import "./commonCss/variables.scss";
+
+.footer {
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  background: url("../img/footer-bg.jpg") no-repeat;
+  background-size: cover;
+  color: $logoColor;
+
+  &__content {
+    padding: 70px 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background: url("../img/footer-dog.png") 99% 100% no-repeat;
+  }
+
+  &__col {
+    margin-right: 160px;
+    margin-bottom: 20px;
+    max-width: 290px;
+  }
+
+  &__header {
+    margin-bottom: 21px;
+    color: #ffffff;
+  }
+
+  &__header.first {
+    margin-bottom: 31px;
+  }
+
+  &__link {
+    display: block;
+  }
+
+  &__mail,
+  &__tel {
+    padding-left: 62px;
+  }
+
+  &__map,
+  &__mail,
+  &__tel {
+    padding-bottom: 9px;
+    padding-top: 7px;
+    background-position: 0 center;
+    background-repeat: no-repeat;
+  }
+
+  &__mail {
+    margin: 10px 0 30px;
+    background-image: url("../img/mail.png");
+  }
+
+  &__tel {
+    background-image: url("../img/tel.png");
+  }
+
+  &__map {
+    padding-left: 44px;
+    margin-bottom: 20px;
+    background-image: url("../img/pin.png");
+  }
+}

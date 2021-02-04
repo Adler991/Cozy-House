@@ -1,0 +1,24 @@
+@import "./commonCss/normalize.scss";
+@import "./commonCss/variables.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $georgia;
+}
+
+.content {
+  max-width: 1210px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@import "./main-screen.scss";
+@import "./about.scss";
+@import "./pets.scss";
+@import "./help.scss";
+@import "./donation.scss";
+@import "./footer.scss";
+@import "./adaptation.scss";

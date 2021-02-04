@@ -1,0 +1,40 @@
+@import "./commonCss/variables.scss";
+
+.about {
+  background-color: $aboutColor;
+
+  &__content {
+    padding: 90px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  &__wr {
+    padding-top: 21px;
+    max-width: 420px;
+  }
+
+  &__img {
+    margin-right: 120px;
+  }
+
+  &__header {
+    max-width: 310px;
+    margin-bottom: 28px;
+  }
+
+  &__desc {
+    margin-bottom: 24px;
+    color: $descColor;
+  }
+}
+
+.main-header {
+  font-family: $georgia;
+  font-size: 35px;
+  line-height: 1.29;
+  letter-spacing: 0.06em;
+  font-weight: normal;
+  color: $headerColor;
+}
